@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body *{
+body {
+    background:url("../assets/image/background.jpg");
+    /* background-repeat:no-repeat; */
     font-family: 'Nanum Gothic Coding', monospace;
 }
+
 .top{
     background-color: #6AD2F3;
     color: #FFFFFF;
@@ -14,14 +17,106 @@ body *{
     text-align: center;
     width: 100%;
 }
-
 .top p{
     display: inline-block;
     position: relative;
     top: 8px;
 }
 
-.background img{
-    width: 100%;
-    height: auto;
+.principal{
+    display: block;
+    height: fit-content;
+    left: 5%;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    width: 90%;
+    /* outline: 2px solid black; */
+}
+.left{
+    background-color: #FFFFFF;
+    /* outline: 1px solid black; */
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 48%;
+}
+.left .reto{
+    font-size: 20px;
+    left: 5px;
+    padding: 12px;
+    top: 15px;
+}
+.left p{
+    left: 5px;
+    padding: 24px 12px;
+}
+.left .blue{
+    color: navy;
+    font-weight: 600;
+}
+.greyline{
+    border: 1px solid lightgray;
+    left: 1%;
+    position: relative;
+    width: 98%;
+}
+
+.right{
+    background-color: #FFFFFF;
+    /* outline: 1px solid black; */
+    height: fit-content;
+    float: right;
+    position: relative;
+    text-align: left;
+    width: 50%;
+}
+textarea{
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    left: 2.5%;
+    max-height: 200px;
+    min-height: 100px;
+    padding: 10px 0px;
+    position: relative;
+    resize: vertical;
+    top: 5px;
+    width: 95%;
+}
+.blueline{
+    border: 1px solid lightgray;
+    left: 1%;
+    margin: 6px 0px;
+    position: relative;
+    width: 98%;
+}
+.twt{
+    background-color: #6AD2F3;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    margin: 10px 10px;
+    padding: 4px 12px;
+}
+
+.large{
+    display: inline-block;
+    left: 5%;
+    position: relative;
+    top: 25px;
+    width: 90%;
+}
+
+.large p{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 10px; 
+    padding: 8px;
 }
